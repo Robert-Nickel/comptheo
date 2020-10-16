@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e61e40e-1ec4-440c-9661-c35c6025ba83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/le02/Task02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/Task0X.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comptheo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/comptheo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/comptheo/le01/Task02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/comptheo/le01/Task02.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/le01/Task02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/le01/Task02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -59,12 +58,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="le02" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="template" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Task02.testMatchesHTWGIpv4Address">
     <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="le01.Task02" />
       <module name="comptheo" />
@@ -89,8 +102,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task02Test.testMatchesHTWGIpv4Address" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comptheo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="le02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="le02" />
+      <option name="MAIN_CLASS_NAME" value="le02.Task02Test" />
+      <option name="METHOD_NAME" value="testMatchesHTWGIpv4Address" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task02.testMatchesHTWGIpv4Address" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comptheo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="le02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="le02" />
+      <option name="MAIN_CLASS_NAME" value="le02.Task02" />
+      <option name="METHOD_NAME" value="testMatchesHTWGIpv4Address" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task02.testMatchesHTWGIpv4Address" />
+        <item itemvalue="JUnit.Task02Test.testMatchesHTWGIpv4Address" />
         <item itemvalue="Application.Task02" />
       </list>
     </recent_temporary>
@@ -103,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602837577860</updated>
-      <workItem from="1602837579739" duration="1386000" />
+      <workItem from="1602837579739" duration="5634000" />
     </task>
     <servers />
   </component>
@@ -118,29 +165,37 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="208" y="43" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1602837866718" />
-    <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1602838522569">
+    <state width="1398" height="295" key="GridCell.Tab.0.bottom" timestamp="1602845422135">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602838522569" />
-    <state width="1398" height="231" key="GridCell.Tab.0.center" timestamp="1602838522568">
+    <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602845422135" />
+    <state width="1398" height="295" key="GridCell.Tab.0.center" timestamp="1602845422134">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1602838522568" />
-    <state width="1398" height="231" key="GridCell.Tab.0.left" timestamp="1602838522568">
+    <state width="1398" height="295" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1602845422134" />
+    <state width="1398" height="295" key="GridCell.Tab.0.left" timestamp="1602845422134">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1602838522568" />
-    <state width="1398" height="231" key="GridCell.Tab.0.right" timestamp="1602838522569">
+    <state width="1398" height="295" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1602845422134" />
+    <state width="1398" height="295" key="GridCell.Tab.0.right" timestamp="1602845422134">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1602838522569" />
+    <state width="1398" height="295" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1602845422134" />
     <state x="208" y="43" key="SettingsEditor" timestamp="1602837841962">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="208" y="43" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1602837841962" />
-    <state x="417" y="259" width="733" height="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602837823060">
+    <state x="417" y="259" width="733" height="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602840296089">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="417" y="259" width="733" height="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.877@0.23.1440.877" timestamp="1602837823060" />
+    <state x="417" y="259" width="733" height="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.877@0.23.1440.877" timestamp="1602840296089" />
+    <state x="499" y="263" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602840264816">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="499" y="263" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.877@0.23.1440.877" timestamp="1602840264816" />
+    <state x="385" y="213" key="search.everywhere.popup" timestamp="1602839624951">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1602839624951" />
   </component>
 </project>

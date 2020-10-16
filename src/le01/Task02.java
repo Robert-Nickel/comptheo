@@ -8,8 +8,6 @@ import java.util.List;
 public class Task02 {
 
     /**
-     * Aufgabe 02
-     *
      * Schreiben Sie in Java eine Klasse „Validiere“, die für beliebige über die Standard-Eingabe eingelesene
      * Postleitzahlen (PLZ) prüft, ob es sich um eine Konstanzer PLZ handelt. Geben Sie über die Standard-Ausgabe
      * entsprechend „Konstanzer PLZ“ oder „keine Konstanzer PLZ“ aus.
