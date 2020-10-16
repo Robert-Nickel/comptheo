@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e61e40e-1ec4-440c-9661-c35c6025ba83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/le02/Task02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/Task0X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/le02/Task04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comptheo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/comptheo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/comptheo/le01/Task02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/comptheo/le01/Task02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/le01/Task02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/le01/Task02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/comptheo/template/Task0X.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/Task0X.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leXY/Task0X.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +51,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last.edited.regexp" value="Sample Text" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -74,10 +65,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="le02" />
       <recent name="template" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task02.testMatchesHTWGIpv4Address">
+  <component name="RunManager" selected="JUnit.Task04.testMatchesPhoneNumberFromKonstanz">
     <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="le01.Task02" />
       <module name="comptheo" />
@@ -134,8 +126,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task04.testMatchesPhoneNumberFromKonstanz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comptheo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="le02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="le02" />
+      <option name="MAIN_CLASS_NAME" value="le02.Task04" />
+      <option name="METHOD_NAME" value="testMatchesPhoneNumberFromKonstanz" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task04.testMatchesPhoneNumberFromKonstanz" />
         <item itemvalue="JUnit.Task02.testMatchesHTWGIpv4Address" />
         <item itemvalue="JUnit.Task02Test.testMatchesHTWGIpv4Address" />
         <item itemvalue="Application.Task02" />
@@ -150,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602837577860</updated>
-      <workItem from="1602837579739" duration="5634000" />
+      <workItem from="1602837579739" duration="7130000" />
     </task>
     <servers />
   </component>
@@ -165,22 +174,26 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="208" y="43" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1602837866718" />
-    <state width="1398" height="295" key="GridCell.Tab.0.bottom" timestamp="1602845422135">
+    <state width="1398" height="192" key="GridCell.Tab.0.bottom" timestamp="1602855372194">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602845422135" />
-    <state width="1398" height="295" key="GridCell.Tab.0.center" timestamp="1602845422134">
+    <state width="1398" height="192" key="GridCell.Tab.0.bottom/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1602855372194" />
+    <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602845564344" />
+    <state width="1398" height="192" key="GridCell.Tab.0.center" timestamp="1602855372193">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="295" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1602845422134" />
-    <state width="1398" height="295" key="GridCell.Tab.0.left" timestamp="1602845422134">
+    <state width="1398" height="192" key="GridCell.Tab.0.center/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1602855372193" />
+    <state width="1398" height="295" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1602845564343" />
+    <state width="1398" height="192" key="GridCell.Tab.0.left" timestamp="1602855372193">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="295" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1602845422134" />
-    <state width="1398" height="295" key="GridCell.Tab.0.right" timestamp="1602845422134">
+    <state width="1398" height="192" key="GridCell.Tab.0.left/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1602855372193" />
+    <state width="1398" height="295" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1602845564343" />
+    <state width="1398" height="192" key="GridCell.Tab.0.right" timestamp="1602855372194">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="295" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1602845422134" />
+    <state width="1398" height="192" key="GridCell.Tab.0.right/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1602855372194" />
+    <state width="1398" height="295" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1602845564344" />
     <state x="208" y="43" key="SettingsEditor" timestamp="1602837841962">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
