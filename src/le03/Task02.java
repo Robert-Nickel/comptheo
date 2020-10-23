@@ -26,4 +26,17 @@ public class Task02 {
         assertEquals("no", dfa.simulate("bb"));
         assertEquals("no", dfa.simulate("ba"));
     }
+
+    @Test
+    void testRegex() {
+        final String regex = "(a|b)*a(a|b)";
+
+        assertTrue("aa".matches(regex));
+        assertTrue("ab".matches(regex));
+        assertTrue("bab".matches(regex));
+        assertTrue("aab".matches(regex));
+
+        assertFalse("bb".matches(regex));
+        assertFalse("ba".matches(regex));
+    }
 }
