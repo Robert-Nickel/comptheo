@@ -24,5 +24,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="algs4" level="project" />
   </component>
 </module>

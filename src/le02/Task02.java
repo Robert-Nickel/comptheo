@@ -34,7 +34,7 @@ public class Task02 {
     }
 
     private static boolean matchesHTWGIpv4Address(final String input) {
-        return input.matches("141.37.20.(" +
+        return input.matches("141\\.37\\.20\\.(" +
                 "[0-9]|" +
                 "[1-9][0-9]|" +
                 "1[1-9][0-5]|" +

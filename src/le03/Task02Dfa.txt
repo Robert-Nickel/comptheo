@@ -1,0 +1,7 @@
+5
+ab
+no 1 3
+no 2 4
+yes 2 4
+no 1 3
+yes 1 3
