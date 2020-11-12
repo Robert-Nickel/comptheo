@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4e61e40e-1ec4-440c-9661-c35c6025ba83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/le03/Task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/le03/Task01aDfa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/le03/Task01bDfa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/le03/Task03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/le03/Task03Dfa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/le03/Task04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/le03/Task04aDfa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/le03/Task04bDfa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/introcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/turing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/le05/Task03TuringMachine.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/le05/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/turing/ST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/turing/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/turing/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/turing/Tape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/turing/Transition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/turing/TuringMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/le03/Task02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/le03/Task02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comptheo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/comptheo.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +70,7 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/le03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/le05" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -76,26 +81,33 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="le02" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/lib/turing" />
+      <recent name="$PROJECT_DIR$/lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="le05" />
       <recent name="le03" />
       <recent name="le02" />
       <recent name="template" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/le05" />
       <recent name="$PROJECT_DIR$/src/le03" />
       <recent name="$PROJECT_DIR$/out/production/comptheo/le03" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task04.testB">
-    <configuration name="Task03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="le03.Task03" />
+  <component name="RunManager" selected="JUnit.Task3">
+    <configuration name="TuringMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="turing.TuringMachine" />
       <module name="comptheo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="le03.*" />
+          <option name="PATTERN" value="turing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,47 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task02.testRegex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="comptheo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="le03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="le03" />
-      <option name="MAIN_CLASS_NAME" value="le03.Task02" />
-      <option name="METHOD_NAME" value="testRegex" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task03.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="comptheo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="le03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="le03" />
-      <option name="MAIN_CLASS_NAME" value="le03.Task03" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,13 +158,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comptheo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="le05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="le05" />
+      <option name="MAIN_CLASS_NAME" value="le05.Task3" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3.testA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comptheo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="le05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="le05" />
+      <option name="MAIN_CLASS_NAME" value="le05.Task3" />
+      <option name="METHOD_NAME" value="testA" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task3" />
+        <item itemvalue="JUnit.Task3.testA" />
+        <item itemvalue="Application.TuringMachine" />
         <item itemvalue="JUnit.Task04.testB" />
         <item itemvalue="JUnit.Task04.testA" />
-        <item itemvalue="Application.Task03" />
-        <item itemvalue="JUnit.Task03.test" />
-        <item itemvalue="JUnit.Task02.testRegex" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +212,8 @@
       <workItem from="1603183301239" duration="187000" />
       <workItem from="1603183531133" duration="50000" />
       <workItem from="1603380464206" duration="266000" />
-      <workItem from="1603434732639" duration="8647000" />
+      <workItem from="1603434732639" duration="9056000" />
+      <workItem from="1605164099195" duration="5914000" />
     </task>
     <servers />
   </component>
@@ -222,30 +232,54 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="208" y="43" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1602837866718" />
+    <state x="100" y="123" width="1240" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1605180372170">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="123" width="1240" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1605180372170" />
     <state x="425" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603443739632">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="425" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877@0.23.1440.877" timestamp="1603443739632" />
-    <state width="1398" height="329" key="GridCell.Tab.0.bottom" timestamp="1603460812172">
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605169500781">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.bottom/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1603380730659" />
-    <state width="1398" height="329" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1603460812172" />
-    <state width="1398" height="329" key="GridCell.Tab.0.center" timestamp="1603460812171">
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1605169500781" />
+    <state width="1398" height="266" key="GridCell.Tab.0.bottom" timestamp="1605180374757">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.center/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1603380730658" />
-    <state width="1398" height="329" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1603460812171" />
-    <state width="1398" height="329" key="GridCell.Tab.0.left" timestamp="1603460812171">
+    <state width="1398" height="266" key="GridCell.Tab.0.bottom/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1605180374757" />
+    <state width="1398" height="256" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1603539010139" />
+    <state width="1398" height="266" key="GridCell.Tab.0.center" timestamp="1605180374756">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.left/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1603380730657" />
-    <state width="1398" height="329" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1603460812171" />
-    <state width="1398" height="329" key="GridCell.Tab.0.right" timestamp="1603460812172">
+    <state width="1398" height="266" key="GridCell.Tab.0.center/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1605180374756" />
+    <state width="1398" height="256" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1603539010139" />
+    <state width="1398" height="266" key="GridCell.Tab.0.left" timestamp="1605180374755">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.right/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1603380730658" />
-    <state width="1398" height="329" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1603460812172" />
+    <state width="1398" height="266" key="GridCell.Tab.0.left/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1605180374755" />
+    <state width="1398" height="256" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1603539010139" />
+    <state width="1398" height="266" key="GridCell.Tab.0.right" timestamp="1605180374756">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.0.right/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1605180374756" />
+    <state width="1398" height="256" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1603539010139" />
+    <state width="1398" height="286" key="GridCell.Tab.1.bottom" timestamp="1605180247133">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="286" key="GridCell.Tab.1.bottom/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1605180247133" />
+    <state width="1398" height="286" key="GridCell.Tab.1.center" timestamp="1605180247132">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="286" key="GridCell.Tab.1.center/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1605180247132" />
+    <state width="1398" height="286" key="GridCell.Tab.1.left" timestamp="1605180247132">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="286" key="GridCell.Tab.1.left/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1605180247132" />
+    <state width="1398" height="286" key="GridCell.Tab.1.right" timestamp="1605180247133">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="286" key="GridCell.Tab.1.right/0.23.1440.877/-256.-1057.1920.1057@0.23.1440.877" timestamp="1605180247133" />
     <state x="208" y="43" key="SettingsEditor" timestamp="1603442360739">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -274,9 +308,20 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="496" y="234" key="refactoring.ChangeSignatureDialog/0.23.1440.877@0.23.1440.877" timestamp="1603442642826" />
-    <state x="385" y="213" key="search.everywhere.popup" timestamp="1603457807158">
+    <state x="385" y="213" key="search.everywhere.popup" timestamp="1605165795534">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1603457807158" />
+    <state x="385" y="213" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1605165795534" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/turing/TuringMachine.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -25,5 +25,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="algs4" level="project" />
+    <orderEntry type="library" name="introcs" level="project" />
+    <orderEntry type="library" name="turing" level="project" />
   </component>
 </module>

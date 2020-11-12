@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="turing">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/turing.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
