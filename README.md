@@ -3,5 +3,3 @@ These are **my potentially wrong** solutions to the tasks for complexity theory 
 It is a configured IntelliJ project that contains the proposed library https://introcs.cs.princeton.edu/stdlib
 and https://bintray.com/algs4/maven/algs4 (both GNUGPLv3)
 and makes use of it. After cloning the repo just "open" it with IntelliJ and you will be good to go.
-
-If you have any issues with the setup or content feel free to create an issue or contact me.
