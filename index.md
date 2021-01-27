@@ -2,3 +2,4 @@
 ### [LE02 - Reguläre Ausdrücke](LE02.md)
 ### [LE03 - Abstrakte Maschinen und DFAs](LE03.md)
 ### [LE04 - Nichtdeterministische Automaten/NFAs](LE04.md)
+### [LE05 - Turingmaschinen](LE05.md)
