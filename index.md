@@ -3,3 +3,4 @@
 ### [LE03 - Abstrakte Maschinen und DFAs](LE03.md)
 ### [LE04 - Nichtdeterministische Automaten/NFAs](LE04.md)
 ### [LE05 - Turingmaschinen](LE05.md)
+### [LE06 - Turingmaschinen 2](LE06.md)
