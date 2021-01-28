@@ -8,3 +8,4 @@
 ### [LE08 - Unlösbarkeit](LE08.md)
 ### [LE09 - Nicht effizient lösbare Probleme](LE09.md)
 ### [LE10 - Einführung P vs NP](LE10.md)
+### [LE11 - NP-Vollständigkeit](LE11.md)
